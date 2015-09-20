@@ -1,0 +1,126 @@
+
+---
+title: "Measurements of visibility"
+output: html_document
+---
+
+In this study we will endevour to increase the visibility of LRL codebases on GitHub. We hypotheizse that making GitHub stargazers a more visually prominate feature of the list will lead to more stars on the projects.
+
+# Methodology
+
+1. Add star stats for all GitHub projects in the list
+1. Measure the star stats baseline (before star stats were added)
+1. Measure the star stats periodically to detect changes
+
+
+## Measurement Methodology
+
+Use the GitHub public API to download JSON stats for projects which are in the list.
+
+
+### Base line control
+
+Measurement taken using the [measure_visibility.sh](measure_visibility.sh) script on Sunday August 2 2015.
+
+
+### Longitudinal data
+
+Measurements were taken using a cron job daily from August to September 2015.
+
+
+### Extraction
+
+Two methods of data extraction were created using Node.js, one where the `diff` was used to extract changes from the baseline, and one where the measurement revisions were checked out and the actual json files were loaded. The `diff` extraction performed quicker than the `file` extraction but there were errors in extrapolating between a diff and it's previous measure so the `file` method is the method which is reported here.
+
+```javascript
+// see index.js
+
+var repoStatsOverTime = {
+  branchName: "experiment/improving-visibility_measurements",
+  resultsJsonDirname: "results",
+  startingRevision: "7f28be7ef273b9778f4cf805f3c43b2307624d8b",
+  endingRevision: "04e8ed8b7be09bcb13cd1756e6d42905d4ff3fce",
+  attributesToExtract: ["name", "size", "stargazers_count", "subscribers_count", "open_issues_count", "forks"],
+  data: {},
+  measurementsList: [],
+  repositoriesList: []
+};
+
+pipeline.getRevisionsList(repoStatsOverTime)
+  .then(pipeline.getFileContentsAtRevisions)
+  .then(pipeline.exportAsTable)
+  .then(function(result) {
+    console.log("Done");
+
+    fs.writeFile("longitudinal_visibility.csv", repoStatsOverTime.table.join("\n"), function(error) {
+      if (!error) {
+        console.log("Saved results in longitudinal_visibility.csv");
+        shellPromise(" header=`grep year longitudinal_visibility.csv`" +
+          " && echo $header > longitudinal_visibility_sorted.csv" +
+          " && sort --field-separator=',' -k 6,6  -k 4,4 longitudinal_visibility.csv >> longitudinal_visibility_sorted.csv " +
+          " && mv longitudinal_visibility_sorted.csv longitudinal_visibility.csv "
+        ).then(function() {
+          console.log("  Sorted by repository name and timestamp.");
+        });
+
+      } else {
+        console.log("Unable to save results", error);
+      }
+    });
+  });
+```
+
+
+# Results
+
+We have extracted the results as a table of observations which can be loaded in LibreOffice or R. Thus far, we can see from the data that there will not be any conclusive results as to whether or not introducing star badges on the list had any effect in promoting the visilibility of the projects. Nontheless, the data remain interesting to browse and explore.
+
+```{r echo=FALSE}
+knitr::read_chunk("src/visibility.r")
+```
+
+```{r required-packages, echo=FALSE, warning=FALSE, message=FALSE, results='hide'}
+```
+
+
+Load the data
+
+```{r }
+longitudinal_visibility <- read.csv("longitudinal_visibility.csv")
+```
+
+Here is what the data looks like.
+
+```{r }
+dim(longitudinal_visibility)
+
+object.size(longitudinal_visibility) # Size of longitudinal_visibility in bytes
+names(longitudinal_visibility) # columns
+summary(longitudinal_visibility)
+str(longitudinal_visibility)
+```
+
+There are roughly two types of repositories in the list, repositories for Natural Language Processing (NLP) which are popular, and Low Resource Languages (LRL) which are not expected to be popular among the software developer community as a whole. This distribution can be seen in the histograms below.
+
+```{r }
+hist(longitudinal_visibility$size, xlab="Repository size")
+hist(longitudinal_visibility$stargazers_count, xlab="Number of  stargazers")
+hist(longitudinal_visibility$subscribers_count, xlab="Number of watchers" )
+hist(longitudinal_visibility$open_issues_count, xlab="Number of open issues")
+hist(longitudinal_visibility$forks, xlab="Number of forks")
+
+```
+
+Most projects have 0 stars (stars a relatively new feature on GitHub and not all GitHub users use them yet). In the scatterplots below we see that smaller repositories tend to have more stars (perhaps indicating they were designed to be digestable in other projets), while none of the larger projects have stars yet (perhaps these projects are larger research projects which are using GitHub for project management rather than publication).
+
+
+```{r }
+plot(c(longitudinal_visibility$size, longitudinal_visibility$stargazers_count), xlab="Size", ylab="Stars")
+```
+
+The number of forks was a more common measure of popularity before GitHub introduced stars. In this plot we can see that repositories with the most stars, might also have a lot of forks.
+
+```{r }
+plot(c(longitudinal_visibility$forks, longitudinal_visibility$stargazers_count), xlab="Forks", ylab="Stars")
+
+```
