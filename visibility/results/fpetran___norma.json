@@ -62,7 +62,7 @@
   "labels_url": "https://api.github.com/repos/fpetran/norma/labels{/name}",
   "releases_url": "https://api.github.com/repos/fpetran/norma/releases{/id}",
   "created_at": "2015-03-06T11:39:20Z",
-  "updated_at": "2015-04-30T16:12:04Z",
+  "updated_at": "2015-09-21T08:40:52Z",
   "pushed_at": "2015-05-15T15:52:06Z",
   "git_url": "git://github.com/fpetran/norma.git",
   "ssh_url": "git@github.com:fpetran/norma.git",
@@ -70,8 +70,8 @@
   "svn_url": "https://github.com/fpetran/norma",
   "homepage": null,
   "size": 796,
-  "stargazers_count": 5,
-  "watchers_count": 5,
+  "stargazers_count": 6,
+  "watchers_count": 6,
   "language": "C++",
   "has_issues": true,
   "has_downloads": true,
@@ -82,7 +82,7 @@
   "open_issues_count": 8,
   "forks": 0,
   "open_issues": 8,
-  "watchers": 5,
+  "watchers": 6,
   "default_branch": "master",
   "permissions": {
     "admin": false,
@@ -90,5 +90,5 @@
     "pull": true
   },
   "network_count": 0,
-  "subscribers_count": 4
+  "subscribers_count": 5
 }
