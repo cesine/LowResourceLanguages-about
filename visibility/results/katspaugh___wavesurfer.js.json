@@ -62,7 +62,7 @@
   "labels_url": "https://api.github.com/repos/katspaugh/wavesurfer.js/labels{/name}",
   "releases_url": "https://api.github.com/repos/katspaugh/wavesurfer.js/releases{/id}",
   "created_at": "2012-03-04T14:38:02Z",
-  "updated_at": "2015-09-27T00:38:58Z",
+  "updated_at": "2015-09-28T00:02:37Z",
   "pushed_at": "2015-09-22T13:19:38Z",
   "git_url": "git://github.com/katspaugh/wavesurfer.js.git",
   "ssh_url": "git@github.com:katspaugh/wavesurfer.js.git",
@@ -70,8 +70,8 @@
   "svn_url": "https://github.com/katspaugh/wavesurfer.js",
   "homepage": "http://wavesurfer-js.org",
   "size": 28285,
-  "stargazers_count": 1367,
-  "watchers_count": 1367,
+  "stargazers_count": 1370,
+  "watchers_count": 1370,
   "language": "JavaScript",
   "has_issues": true,
   "has_downloads": true,
@@ -82,7 +82,7 @@
   "open_issues_count": 48,
   "forks": 325,
   "open_issues": 48,
-  "watchers": 1367,
+  "watchers": 1370,
   "default_branch": "master",
   "permissions": {
     "admin": false,
@@ -90,5 +90,5 @@
     "pull": true
   },
   "network_count": 325,
-  "subscribers_count": 115
+  "subscribers_count": 116
 }
