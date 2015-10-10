@@ -69,7 +69,7 @@
   "clone_url": "https://github.com/atilika/kuromoji.git",
   "svn_url": "https://github.com/atilika/kuromoji",
   "homepage": "http://atilika.org/",
-  "size": 6334,
+  "size": 5651,
   "stargazers_count": 222,
   "watchers_count": 222,
   "language": "Java",
@@ -77,10 +77,10 @@
   "has_downloads": true,
   "has_wiki": false,
   "has_pages": false,
-  "forks_count": 57,
+  "forks_count": 56,
   "mirror_url": null,
   "open_issues_count": 2,
-  "forks": 57,
+  "forks": 56,
   "open_issues": 2,
   "watchers": 222,
   "default_branch": "master",
@@ -108,6 +108,6 @@
     "type": "Organization",
     "site_admin": false
   },
-  "network_count": 57,
+  "network_count": 56,
   "subscribers_count": 38
 }
