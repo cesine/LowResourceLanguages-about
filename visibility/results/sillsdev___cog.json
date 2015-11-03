@@ -63,13 +63,13 @@
   "releases_url": "https://api.github.com/repos/sillsdev/cog/releases{/id}",
   "created_at": "2013-01-22T06:13:30Z",
   "updated_at": "2015-11-01T09:05:29Z",
-  "pushed_at": "2015-10-16T13:35:58Z",
+  "pushed_at": "2015-11-03T08:59:16Z",
   "git_url": "git://github.com/sillsdev/cog.git",
   "ssh_url": "git@github.com:sillsdev/cog.git",
   "clone_url": "https://github.com/sillsdev/cog.git",
   "svn_url": "https://github.com/sillsdev/cog",
   "homepage": "http://sillsdev.github.io/cog/",
-  "size": 9929,
+  "size": 9931,
   "stargazers_count": 1,
   "watchers_count": 1,
   "language": "C#",
@@ -109,5 +109,5 @@
     "site_admin": false
   },
   "network_count": 3,
-  "subscribers_count": 2
+  "subscribers_count": 3
 }
