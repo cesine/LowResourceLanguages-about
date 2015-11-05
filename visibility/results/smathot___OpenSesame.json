@@ -62,16 +62,16 @@
   "labels_url": "https://api.github.com/repos/smathot/OpenSesame/labels{/name}",
   "releases_url": "https://api.github.com/repos/smathot/OpenSesame/releases{/id}",
   "created_at": "2011-02-01T15:00:34Z",
-  "updated_at": "2015-10-22T20:18:39Z",
-  "pushed_at": "2015-11-03T16:36:16Z",
+  "updated_at": "2015-11-05T05:42:51Z",
+  "pushed_at": "2015-11-04T13:42:18Z",
   "git_url": "git://github.com/smathot/OpenSesame.git",
   "ssh_url": "git@github.com:smathot/OpenSesame.git",
   "clone_url": "https://github.com/smathot/OpenSesame.git",
   "svn_url": "https://github.com/smathot/OpenSesame",
   "homepage": "http://www.cogsci.nl/software/opensesame",
   "size": 98001,
-  "stargazers_count": 63,
-  "watchers_count": 63,
+  "stargazers_count": 64,
+  "watchers_count": 64,
   "language": "Python",
   "has_issues": true,
   "has_downloads": true,
@@ -79,10 +79,10 @@
   "has_pages": false,
   "forks_count": 58,
   "mirror_url": null,
-  "open_issues_count": 27,
+  "open_issues_count": 25,
   "forks": 58,
-  "open_issues": 27,
-  "watchers": 63,
+  "open_issues": 25,
+  "watchers": 64,
   "default_branch": "master",
   "permissions": {
     "admin": false,
@@ -90,5 +90,5 @@
     "pull": true
   },
   "network_count": 58,
-  "subscribers_count": 16
+  "subscribers_count": 15
 }
