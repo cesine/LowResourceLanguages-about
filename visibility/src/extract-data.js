@@ -65,7 +65,7 @@ var getFilesAtRevision = function(options, revision) {
           }
         });
         // console.log("Checkout back to experiment/improving-visibility_scripts");
-        shellPromise("git checkout experiment/improving-visibility_scripts").then(function() {
+        shellPromise("git checkout master").then(function() {
           deferred.resolve(options);
         });
 
@@ -231,29 +231,59 @@ var exportAsTable = function(options) {
 
       // Extract stats for each repo
       for (var repoName in options.data[revision]) {
-        if (!options.data[revision].hasOwnProperty(repoName) || repoName === "timestamp") {
+        if (!options.data[revision].hasOwnProperty(repoName) || repoName === "timestamp" || !repoName) {
           continue;
         }
+
+        // Handle testing repo missing commit
+        if (revision === "7f28be7ef273b9778f4cf805f3c43b2307624d8b" && repoName !== "FieldDB") {
+          // console.log("skipping this commit " + repoName);
+          continue;
+        }
+
         if (!options.data[revision][repoName].exportAsCSV) {
           // console.log("this repository might have never been updated", options.data[revision][repoName]);
           options.data[revision][repoName] = Repository.fillFromLastKnownMeasurement(options.data[revision][repoName].repoAtPreviousMeasurement);
         }
         var asCsv = options.data[revision][repoName].exportAsCSV(options.attributesToExtract);
+        if (!asCsv[0] || asCsv[0] === "0" || !repoName || asCsv.length !== options.attributesToExtract.length) {
+          // console.log("Skipping " + repoName, asCsv);
+          continue;
+        }
+        // Updating to actual repo name 
+        // if (asCsv[0] === "---") {
+        //   asCsv[0] = "‫قلب‬";
+        // }
         var date = new Date(options.data[revision].timestamp);
         asCsv.unshift(revision);
         asCsv.unshift(options.data[revision].timestamp);
 
-        var withPadding = date.getDate();
-        if (withPadding < 10) {
-          withPadding = "0" + withPadding;
-        }
-        asCsv.unshift(withPadding);
+        // Handle repair commits
+        if (revision === "7f28be7ef273b9778f4cf805f3c43b2307624d8b") {
+          // console.log("change this date to 08,11");
+          asCsv.unshift("11");
+          asCsv.unshift("08");
+        } else if (revision === "62c469ad01748f10932cadbc36db2fbce5341f96") {
+          // console.log("change this date to 08,12");
+          asCsv.unshift("12");
+          asCsv.unshift("08");
+        } else if (revision === "cd122623a2228d3a7504aecd529bcc97c03a6ea9") {
+          // console.log("change this date to 08,13");
+          asCsv.unshift("13");
+          asCsv.unshift("08");
+        } else {
+          var withPadding = date.getDate();
+          if (withPadding < 10) {
+            withPadding = "0" + withPadding;
+          }
+          asCsv.unshift(withPadding);
 
-        withPadding = date.getMonth() + 1;
-        if (withPadding < 10) {
-          withPadding = "0" + withPadding;
+          withPadding = date.getMonth() + 1;
+          if (withPadding < 10) {
+            withPadding = "0" + withPadding;
+          }
+          asCsv.unshift(withPadding);
         }
-        asCsv.unshift(withPadding);
 
         asCsv.unshift(date.getFullYear());
         options.table.push(asCsv.join(","));

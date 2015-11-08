@@ -6,7 +6,7 @@ var repoStatsOverTime = {
   branchName: "experiment/improving-visibility_measurements",
   resultsJsonDirname: "results",
   startingRevision: "7f28be7ef273b9778f4cf805f3c43b2307624d8b",
-  endingRevision: "04e8ed8b7be09bcb13cd1756e6d42905d4ff3fce",
+  endingRevision: "9a5d866b06bbe1329ebbb9f30186bd842d31ae6d",
   attributesToExtract: ["name", "size", "stargazers_count", "subscribers_count", "open_issues_count", "forks"],
   data: {},
   measurementsList: [],
@@ -28,9 +28,10 @@ pipeline.getRevisionsList(repoStatsOverTime)
       if (!error) {
         console.log("Saved results in longitudinal_visibility.csv");
         shellPromise(" header=`grep year longitudinal_visibility.csv`" +
-          " && echo $header > longitudinal_visibility_sorted.csv" +
-          " && sort --field-separator=',' -k 6,6  -k 4,4 longitudinal_visibility.csv >> longitudinal_visibility_sorted.csv " +
-          " && mv longitudinal_visibility_sorted.csv longitudinal_visibility.csv "
+          " && sed s/$header//g longitudinal_visibility.csv > cleaned.csv" + // remove header lines
+          " && echo $header > longitudinal_visibility.csv" + // prepend header
+          " && sort --field-separator=',' -k 6,6  -k 1,1 -k 2,2 -k 3,3 cleaned.csv >> longitudinal_visibility.csv " + 
+          " && rm cleaned.csv "
         ).then(function() {
           console.log("  Sorted by repository name and timestamp.");
         });
