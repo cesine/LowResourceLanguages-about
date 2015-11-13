@@ -62,13 +62,13 @@
   "labels_url": "https://api.github.com/repos/korpling/pepper/labels{/name}",
   "releases_url": "https://api.github.com/repos/korpling/pepper/releases{/id}",
   "created_at": "2014-07-10T14:19:44Z",
-  "updated_at": "2015-09-17T11:06:14Z",
-  "pushed_at": "2015-11-12T08:51:53Z",
+  "updated_at": "2015-11-12T11:46:26Z",
+  "pushed_at": "2015-11-12T20:28:41Z",
   "git_url": "git://github.com/korpling/pepper.git",
   "ssh_url": "git@github.com:korpling/pepper.git",
   "clone_url": "https://github.com/korpling/pepper.git",
   "svn_url": "https://github.com/korpling/pepper",
-  "homepage": "http://annis-tools.org/pepper",
+  "homepage": "http://corpus-tools.org/pepper",
   "size": 38327,
   "stargazers_count": 4,
   "watchers_count": 4,
@@ -109,5 +109,5 @@
     "site_admin": false
   },
   "network_count": 1,
-  "subscribers_count": 9
+  "subscribers_count": 10
 }
