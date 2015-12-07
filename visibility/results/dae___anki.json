@@ -63,7 +63,7 @@
   "releases_url": "https://api.github.com/repos/dae/anki/releases{/id}",
   "created_at": "2012-12-21T08:03:31Z",
   "updated_at": "2015-12-06T06:33:53Z",
-  "pushed_at": "2015-12-02T07:05:37Z",
+  "pushed_at": "2015-12-07T07:37:55Z",
   "git_url": "git://github.com/dae/anki.git",
   "ssh_url": "git@github.com:dae/anki.git",
   "clone_url": "https://github.com/dae/anki.git",
@@ -77,11 +77,11 @@
   "has_downloads": true,
   "has_wiki": false,
   "has_pages": false,
-  "forks_count": 297,
+  "forks_count": 298,
   "mirror_url": null,
-  "open_issues_count": 10,
-  "forks": 297,
-  "open_issues": 10,
+  "open_issues_count": 11,
+  "forks": 298,
+  "open_issues": 11,
   "watchers": 1233,
   "default_branch": "master",
   "permissions": {
@@ -89,6 +89,6 @@
     "push": false,
     "pull": true
   },
-  "network_count": 297,
+  "network_count": 298,
   "subscribers_count": 179
 }
