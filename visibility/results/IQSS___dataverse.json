@@ -63,13 +63,13 @@
   "releases_url": "https://api.github.com/repos/IQSS/dataverse/releases{/id}",
   "created_at": "2013-11-01T18:47:39Z",
   "updated_at": "2015-11-20T21:13:29Z",
-  "pushed_at": "2015-12-15T20:24:11Z",
+  "pushed_at": "2015-12-16T16:38:45Z",
   "git_url": "git://github.com/IQSS/dataverse.git",
   "ssh_url": "git@github.com:IQSS/dataverse.git",
   "clone_url": "https://github.com/IQSS/dataverse.git",
   "svn_url": "https://github.com/IQSS/dataverse",
   "homepage": "http://dataverse.org",
-  "size": 44938,
+  "size": 44942,
   "stargazers_count": 69,
   "watchers_count": 69,
   "language": "Java",
@@ -79,9 +79,9 @@
   "has_pages": false,
   "forks_count": 36,
   "mirror_url": null,
-  "open_issues_count": 818,
+  "open_issues_count": 823,
   "forks": 36,
-  "open_issues": 818,
+  "open_issues": 823,
   "watchers": 69,
   "default_branch": "4.3",
   "permissions": {
@@ -109,5 +109,5 @@
     "site_admin": false
   },
   "network_count": 36,
-  "subscribers_count": 34
+  "subscribers_count": 35
 }

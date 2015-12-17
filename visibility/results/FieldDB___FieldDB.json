@@ -63,7 +63,7 @@
   "releases_url": "https://api.github.com/repos/FieldDB/FieldDB/releases{/id}",
   "created_at": "2012-03-02T14:06:24Z",
   "updated_at": "2015-11-06T15:51:37Z",
-  "pushed_at": "2015-12-15T07:58:13Z",
+  "pushed_at": "2015-12-17T05:08:06Z",
   "git_url": "git://github.com/FieldDB/FieldDB.git",
   "ssh_url": "git@github.com:FieldDB/FieldDB.git",
   "clone_url": "https://github.com/FieldDB/FieldDB.git",
