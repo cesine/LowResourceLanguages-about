@@ -63,13 +63,13 @@
   "releases_url": "https://api.github.com/repos/UniversalDependencies/docs/releases{/id}",
   "created_at": "2014-04-15T10:09:23Z",
   "updated_at": "2015-12-26T16:51:37Z",
-  "pushed_at": "2015-12-30T17:47:42Z",
+  "pushed_at": "2015-12-31T15:50:59Z",
   "git_url": "git://github.com/UniversalDependencies/docs.git",
   "ssh_url": "git@github.com:UniversalDependencies/docs.git",
   "clone_url": "https://github.com/UniversalDependencies/docs.git",
   "svn_url": "https://github.com/UniversalDependencies/docs",
   "homepage": "http://universaldependencies.github.io/docs/",
-  "size": 51895,
+  "size": 51908,
   "stargazers_count": 39,
   "watchers_count": 39,
   "language": "HTML",
@@ -109,5 +109,5 @@
     "site_admin": false
   },
   "network_count": 42,
-  "subscribers_count": 73
+  "subscribers_count": 74
 }
