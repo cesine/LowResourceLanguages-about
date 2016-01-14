@@ -62,7 +62,7 @@
   "labels_url": "https://api.github.com/repos/NaturalNode/natural/labels{/name}",
   "releases_url": "https://api.github.com/repos/NaturalNode/natural/releases{/id}",
   "created_at": "2011-05-07T02:35:16Z",
-  "updated_at": "2016-01-12T22:02:43Z",
+  "updated_at": "2016-01-13T23:41:03Z",
   "pushed_at": "2016-01-12T18:41:20Z",
   "git_url": "git://github.com/NaturalNode/natural.git",
   "ssh_url": "git@github.com:NaturalNode/natural.git",
@@ -70,8 +70,8 @@
   "svn_url": "https://github.com/NaturalNode/natural",
   "homepage": "",
   "size": 9080,
-  "stargazers_count": 4181,
-  "watchers_count": 4181,
+  "stargazers_count": 4187,
+  "watchers_count": 4187,
   "language": "JavaScript",
   "has_issues": true,
   "has_downloads": true,
@@ -82,7 +82,7 @@
   "open_issues_count": 56,
   "forks": 394,
   "open_issues": 56,
-  "watchers": 4181,
+  "watchers": 4187,
   "default_branch": "master",
   "permissions": {
     "admin": false,
@@ -109,5 +109,5 @@
     "site_admin": false
   },
   "network_count": 394,
-  "subscribers_count": 203
+  "subscribers_count": 205
 }

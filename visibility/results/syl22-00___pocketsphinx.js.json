@@ -79,9 +79,9 @@
   "has_pages": true,
   "forks_count": 84,
   "mirror_url": null,
-  "open_issues_count": 15,
+  "open_issues_count": 16,
   "forks": 84,
-  "open_issues": 15,
+  "open_issues": 16,
   "watchers": 524,
   "default_branch": "master",
   "permissions": {
@@ -90,5 +90,5 @@
     "pull": true
   },
   "network_count": 84,
-  "subscribers_count": 59
+  "subscribers_count": 57
 }
