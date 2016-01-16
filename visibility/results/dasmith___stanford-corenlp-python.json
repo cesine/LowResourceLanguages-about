@@ -77,10 +77,10 @@
   "has_downloads": true,
   "has_wiki": true,
   "has_pages": false,
-  "forks_count": 128,
+  "forks_count": 127,
   "mirror_url": null,
   "open_issues_count": 25,
-  "forks": 128,
+  "forks": 127,
   "open_issues": 25,
   "watchers": 302,
   "default_branch": "master",
@@ -89,6 +89,6 @@
     "push": false,
     "pull": true
   },
-  "network_count": 128,
+  "network_count": 127,
   "subscribers_count": 30
 }
