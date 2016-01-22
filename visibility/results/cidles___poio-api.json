@@ -61,6 +61,7 @@
   "notifications_url": "https://api.github.com/repos/cidles/poio-api/notifications{?since,all,participating}",
   "labels_url": "https://api.github.com/repos/cidles/poio-api/labels{/name}",
   "releases_url": "https://api.github.com/repos/cidles/poio-api/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/cidles/poio-api/deployments",
   "created_at": "2012-08-27T21:09:56Z",
   "updated_at": "2015-08-18T00:27:28Z",
   "pushed_at": "2015-07-10T08:47:24Z",

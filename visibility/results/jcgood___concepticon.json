@@ -61,6 +61,7 @@
   "notifications_url": "https://api.github.com/repos/jcgood/concepticon/notifications{?since,all,participating}",
   "labels_url": "https://api.github.com/repos/jcgood/concepticon/labels{/name}",
   "releases_url": "https://api.github.com/repos/jcgood/concepticon/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/jcgood/concepticon/deployments",
   "created_at": "2013-07-11T02:43:41Z",
   "updated_at": "2013-12-05T21:37:06Z",
   "pushed_at": "2013-07-17T14:20:59Z",

@@ -61,6 +61,7 @@
   "notifications_url": "https://api.github.com/repos/jcgood/desmeme/notifications{?since,all,participating}",
   "labels_url": "https://api.github.com/repos/jcgood/desmeme/labels{/name}",
   "releases_url": "https://api.github.com/repos/jcgood/desmeme/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/jcgood/desmeme/deployments",
   "created_at": "2013-06-25T02:06:28Z",
   "updated_at": "2015-02-27T18:38:12Z",
   "pushed_at": "2016-01-02T00:05:37Z",

@@ -61,6 +61,7 @@
   "notifications_url": "https://api.github.com/repos/jcgood/complexity/notifications{?since,all,participating}",
   "labels_url": "https://api.github.com/repos/jcgood/complexity/labels{/name}",
   "releases_url": "https://api.github.com/repos/jcgood/complexity/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/jcgood/complexity/deployments",
   "created_at": "2013-07-17T14:13:09Z",
   "updated_at": "2015-01-12T23:56:49Z",
   "pushed_at": "2015-01-12T23:56:49Z",

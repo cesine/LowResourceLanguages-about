@@ -61,6 +61,7 @@
   "notifications_url": "https://api.github.com/repos/syl22-00/pocketsphinx.js/notifications{?since,all,participating}",
   "labels_url": "https://api.github.com/repos/syl22-00/pocketsphinx.js/labels{/name}",
   "releases_url": "https://api.github.com/repos/syl22-00/pocketsphinx.js/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/syl22-00/pocketsphinx.js/deployments",
   "created_at": "2013-06-01T12:47:39Z",
   "updated_at": "2016-01-21T03:52:10Z",
   "pushed_at": "2016-01-14T11:15:57Z",

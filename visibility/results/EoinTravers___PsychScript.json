@@ -61,6 +61,7 @@
   "notifications_url": "https://api.github.com/repos/EoinTravers/PsychScript/notifications{?since,all,participating}",
   "labels_url": "https://api.github.com/repos/EoinTravers/PsychScript/labels{/name}",
   "releases_url": "https://api.github.com/repos/EoinTravers/PsychScript/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/EoinTravers/PsychScript/deployments",
   "created_at": "2013-09-13T15:55:09Z",
   "updated_at": "2015-12-14T19:26:16Z",
   "pushed_at": "2014-11-17T13:34:13Z",

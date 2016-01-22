@@ -61,6 +61,7 @@
   "notifications_url": "https://api.github.com/repos/eopas/eopas/notifications{?since,all,participating}",
   "labels_url": "https://api.github.com/repos/eopas/eopas/labels{/name}",
   "releases_url": "https://api.github.com/repos/eopas/eopas/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/eopas/eopas/deployments",
   "created_at": "2011-02-04T09:17:00Z",
   "updated_at": "2015-04-12T11:59:17Z",
   "pushed_at": "2015-07-20T22:44:51Z",

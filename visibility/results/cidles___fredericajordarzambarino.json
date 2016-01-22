@@ -61,6 +61,7 @@
   "notifications_url": "https://api.github.com/repos/cidles/fredericajordarzambarino/notifications{?since,all,participating}",
   "labels_url": "https://api.github.com/repos/cidles/fredericajordarzambarino/labels{/name}",
   "releases_url": "https://api.github.com/repos/cidles/fredericajordarzambarino/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/cidles/fredericajordarzambarino/deployments",
   "created_at": "2014-07-30T10:05:08Z",
   "updated_at": "2014-09-04T21:10:30Z",
   "pushed_at": "2014-09-04T21:10:30Z",

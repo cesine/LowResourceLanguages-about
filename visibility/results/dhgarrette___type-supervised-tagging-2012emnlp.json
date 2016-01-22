@@ -61,6 +61,7 @@
   "notifications_url": "https://api.github.com/repos/dhgarrette/type-supervised-tagging-2012emnlp/notifications{?since,all,participating}",
   "labels_url": "https://api.github.com/repos/dhgarrette/type-supervised-tagging-2012emnlp/labels{/name}",
   "releases_url": "https://api.github.com/repos/dhgarrette/type-supervised-tagging-2012emnlp/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/dhgarrette/type-supervised-tagging-2012emnlp/deployments",
   "created_at": "2012-05-23T05:34:13Z",
   "updated_at": "2014-11-11T20:24:31Z",
   "pushed_at": "2015-11-05T08:02:40Z",

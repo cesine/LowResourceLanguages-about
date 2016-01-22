@@ -61,6 +61,7 @@
   "notifications_url": "https://api.github.com/repos/sillsdev/cog/notifications{?since,all,participating}",
   "labels_url": "https://api.github.com/repos/sillsdev/cog/labels{/name}",
   "releases_url": "https://api.github.com/repos/sillsdev/cog/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/sillsdev/cog/deployments",
   "created_at": "2013-01-22T06:13:30Z",
   "updated_at": "2016-01-11T09:33:33Z",
   "pushed_at": "2016-01-11T09:36:46Z",

@@ -61,6 +61,7 @@
   "notifications_url": "https://api.github.com/repos/LowResourceLanguages/hltdi-morphology/notifications{?since,all,participating}",
   "labels_url": "https://api.github.com/repos/LowResourceLanguages/hltdi-morphology/labels{/name}",
   "releases_url": "https://api.github.com/repos/LowResourceLanguages/hltdi-morphology/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/LowResourceLanguages/hltdi-morphology/deployments",
   "created_at": "2015-04-17T07:46:48Z",
   "updated_at": "2015-12-06T06:19:34Z",
   "pushed_at": "2015-04-17T07:59:23Z",

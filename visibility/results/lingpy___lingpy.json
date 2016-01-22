@@ -61,6 +61,7 @@
   "notifications_url": "https://api.github.com/repos/lingpy/lingpy/notifications{?since,all,participating}",
   "labels_url": "https://api.github.com/repos/lingpy/lingpy/labels{/name}",
   "releases_url": "https://api.github.com/repos/lingpy/lingpy/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/lingpy/lingpy/deployments",
   "created_at": "2012-10-23T09:38:54Z",
   "updated_at": "2016-01-12T21:50:17Z",
   "pushed_at": "2015-11-03T07:41:44Z",

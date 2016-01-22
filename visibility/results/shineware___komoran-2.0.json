@@ -61,6 +61,7 @@
   "notifications_url": "https://api.github.com/repos/shineware/komoran-2.0/notifications{?since,all,participating}",
   "labels_url": "https://api.github.com/repos/shineware/komoran-2.0/labels{/name}",
   "releases_url": "https://api.github.com/repos/shineware/komoran-2.0/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/shineware/komoran-2.0/deployments",
   "created_at": "2014-12-07T16:04:56Z",
   "updated_at": "2015-11-21T19:24:01Z",
   "pushed_at": "2014-12-26T03:01:23Z",

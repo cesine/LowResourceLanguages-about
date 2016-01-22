@@ -61,6 +61,7 @@
   "notifications_url": "https://api.github.com/repos/substack/dictdb/notifications{?since,all,participating}",
   "labels_url": "https://api.github.com/repos/substack/dictdb/labels{/name}",
   "releases_url": "https://api.github.com/repos/substack/dictdb/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/substack/dictdb/deployments",
   "created_at": "2014-10-10T13:55:42Z",
   "updated_at": "2016-01-14T11:22:55Z",
   "pushed_at": "2014-10-10T13:56:44Z",

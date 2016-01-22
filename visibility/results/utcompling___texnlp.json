@@ -61,6 +61,7 @@
   "notifications_url": "https://api.github.com/repos/utcompling/texnlp/notifications{?since,all,participating}",
   "labels_url": "https://api.github.com/repos/utcompling/texnlp/labels{/name}",
   "releases_url": "https://api.github.com/repos/utcompling/texnlp/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/utcompling/texnlp/deployments",
   "created_at": "2011-12-07T01:46:38Z",
   "updated_at": "2015-10-09T02:10:17Z",
   "pushed_at": "2012-01-14T20:26:47Z",

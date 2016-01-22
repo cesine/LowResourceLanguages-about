@@ -61,6 +61,7 @@
   "notifications_url": "https://api.github.com/repos/FieldDB/FieldDBActivityFeed/notifications{?since,all,participating}",
   "labels_url": "https://api.github.com/repos/FieldDB/FieldDBActivityFeed/labels{/name}",
   "releases_url": "https://api.github.com/repos/FieldDB/FieldDBActivityFeed/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/FieldDB/FieldDBActivityFeed/deployments",
   "created_at": "2014-01-14T00:58:35Z",
   "updated_at": "2014-04-24T07:36:03Z",
   "pushed_at": "2015-03-01T09:20:01Z",

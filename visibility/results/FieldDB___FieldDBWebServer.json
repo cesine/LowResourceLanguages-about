@@ -61,6 +61,7 @@
   "notifications_url": "https://api.github.com/repos/FieldDB/FieldDBWebServer/notifications{?since,all,participating}",
   "labels_url": "https://api.github.com/repos/FieldDB/FieldDBWebServer/labels{/name}",
   "releases_url": "https://api.github.com/repos/FieldDB/FieldDBWebServer/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/FieldDB/FieldDBWebServer/deployments",
   "created_at": "2012-09-15T18:37:34Z",
   "updated_at": "2015-04-21T10:42:01Z",
   "pushed_at": "2015-12-12T05:55:22Z",

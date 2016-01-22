@@ -61,6 +61,7 @@
   "notifications_url": "https://api.github.com/repos/pyramation/LaTeX2HTML5/notifications{?since,all,participating}",
   "labels_url": "https://api.github.com/repos/pyramation/LaTeX2HTML5/labels{/name}",
   "releases_url": "https://api.github.com/repos/pyramation/LaTeX2HTML5/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/pyramation/LaTeX2HTML5/deployments",
   "created_at": "2013-08-20T05:44:28Z",
   "updated_at": "2016-01-12T09:26:47Z",
   "pushed_at": "2014-09-04T22:54:24Z",

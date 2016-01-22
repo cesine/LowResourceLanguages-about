@@ -61,6 +61,7 @@
   "notifications_url": "https://api.github.com/repos/alvations/bayesline/notifications{?since,all,participating}",
   "labels_url": "https://api.github.com/repos/alvations/bayesline/labels{/name}",
   "releases_url": "https://api.github.com/repos/alvations/bayesline/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/alvations/bayesline/deployments",
   "created_at": "2014-05-27T11:35:11Z",
   "updated_at": "2016-01-19T06:30:43Z",
   "pushed_at": "2015-03-10T11:09:34Z",

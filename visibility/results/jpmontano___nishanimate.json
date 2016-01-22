@@ -61,6 +61,7 @@
   "notifications_url": "https://api.github.com/repos/jpmontano/nishanimate/notifications{?since,all,participating}",
   "labels_url": "https://api.github.com/repos/jpmontano/nishanimate/labels{/name}",
   "releases_url": "https://api.github.com/repos/jpmontano/nishanimate/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/jpmontano/nishanimate/deployments",
   "created_at": "2013-04-07T14:20:38Z",
   "updated_at": "2015-07-15T16:37:15Z",
   "pushed_at": "2015-07-21T07:08:04Z",

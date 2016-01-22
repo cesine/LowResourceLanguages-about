@@ -61,6 +61,7 @@
   "notifications_url": "https://api.github.com/repos/KentonMurray/Buckwalter/notifications{?since,all,participating}",
   "labels_url": "https://api.github.com/repos/KentonMurray/Buckwalter/labels{/name}",
   "releases_url": "https://api.github.com/repos/KentonMurray/Buckwalter/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/KentonMurray/Buckwalter/deployments",
   "created_at": "2014-04-03T11:56:26Z",
   "updated_at": "2015-04-22T03:02:03Z",
   "pushed_at": "2014-04-03T12:01:50Z",

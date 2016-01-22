@@ -61,6 +61,7 @@
   "notifications_url": "https://api.github.com/repos/FieldDB/AndroidLanguageLessons/notifications{?since,all,participating}",
   "labels_url": "https://api.github.com/repos/FieldDB/AndroidLanguageLessons/labels{/name}",
   "releases_url": "https://api.github.com/repos/FieldDB/AndroidLanguageLessons/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/FieldDB/AndroidLanguageLessons/deployments",
   "created_at": "2012-09-11T18:38:01Z",
   "updated_at": "2015-08-31T15:02:03Z",
   "pushed_at": "2015-08-31T16:27:51Z",

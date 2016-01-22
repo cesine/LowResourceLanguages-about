@@ -61,6 +61,7 @@
   "notifications_url": "https://api.github.com/repos/fpetran/norma/notifications{?since,all,participating}",
   "labels_url": "https://api.github.com/repos/fpetran/norma/labels{/name}",
   "releases_url": "https://api.github.com/repos/fpetran/norma/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/fpetran/norma/deployments",
   "created_at": "2015-03-06T11:39:20Z",
   "updated_at": "2015-11-04T14:34:19Z",
   "pushed_at": "2015-05-15T15:52:06Z",

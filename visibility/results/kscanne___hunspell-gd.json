@@ -61,6 +61,7 @@
   "notifications_url": "https://api.github.com/repos/kscanne/hunspell-gd/notifications{?since,all,participating}",
   "labels_url": "https://api.github.com/repos/kscanne/hunspell-gd/labels{/name}",
   "releases_url": "https://api.github.com/repos/kscanne/hunspell-gd/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/kscanne/hunspell-gd/deployments",
   "created_at": "2012-01-15T06:03:04Z",
   "updated_at": "2014-09-09T00:28:45Z",
   "pushed_at": "2014-09-24T20:29:00Z",

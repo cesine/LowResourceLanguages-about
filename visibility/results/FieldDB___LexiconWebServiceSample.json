@@ -61,6 +61,7 @@
   "notifications_url": "https://api.github.com/repos/FieldDB/LexiconWebServiceSample/notifications{?since,all,participating}",
   "labels_url": "https://api.github.com/repos/FieldDB/LexiconWebServiceSample/labels{/name}",
   "releases_url": "https://api.github.com/repos/FieldDB/LexiconWebServiceSample/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/FieldDB/LexiconWebServiceSample/deployments",
   "created_at": "2012-05-09T20:34:01Z",
   "updated_at": "2013-10-02T09:58:37Z",
   "pushed_at": "2012-05-24T00:19:38Z",

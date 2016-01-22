@@ -61,6 +61,7 @@
   "notifications_url": "https://api.github.com/repos/sillsdev/machine/notifications{?since,all,participating}",
   "labels_url": "https://api.github.com/repos/sillsdev/machine/labels{/name}",
   "releases_url": "https://api.github.com/repos/sillsdev/machine/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/sillsdev/machine/deployments",
   "created_at": "2013-01-22T04:05:05Z",
   "updated_at": "2015-08-17T02:51:21Z",
   "pushed_at": "2015-12-09T08:11:17Z",

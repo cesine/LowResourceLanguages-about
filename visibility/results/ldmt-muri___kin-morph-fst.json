@@ -61,6 +61,7 @@
   "notifications_url": "https://api.github.com/repos/ldmt-muri/kin-morph-fst/notifications{?since,all,participating}",
   "labels_url": "https://api.github.com/repos/ldmt-muri/kin-morph-fst/labels{/name}",
   "releases_url": "https://api.github.com/repos/ldmt-muri/kin-morph-fst/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/ldmt-muri/kin-morph-fst/deployments",
   "created_at": "2013-08-26T21:37:29Z",
   "updated_at": "2014-11-16T05:54:48Z",
   "pushed_at": "2013-08-26T21:45:41Z",

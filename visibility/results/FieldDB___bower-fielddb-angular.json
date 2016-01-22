@@ -61,6 +61,7 @@
   "notifications_url": "https://api.github.com/repos/FieldDB/bower-fielddb-angular/notifications{?since,all,participating}",
   "labels_url": "https://api.github.com/repos/FieldDB/bower-fielddb-angular/labels{/name}",
   "releases_url": "https://api.github.com/repos/FieldDB/bower-fielddb-angular/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/FieldDB/bower-fielddb-angular/deployments",
   "created_at": "2014-08-04T20:50:16Z",
   "updated_at": "2015-01-09T12:16:08Z",
   "pushed_at": "2015-08-04T14:38:07Z",

@@ -61,6 +61,7 @@
   "notifications_url": "https://api.github.com/repos/westonruter/ipa-chart/notifications{?since,all,participating}",
   "labels_url": "https://api.github.com/repos/westonruter/ipa-chart/labels{/name}",
   "releases_url": "https://api.github.com/repos/westonruter/ipa-chart/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/westonruter/ipa-chart/deployments",
   "created_at": "2010-11-06T01:05:42Z",
   "updated_at": "2015-12-24T19:04:45Z",
   "pushed_at": "2015-12-13T22:29:21Z",

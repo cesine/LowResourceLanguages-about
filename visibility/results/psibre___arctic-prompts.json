@@ -61,6 +61,7 @@
   "notifications_url": "https://api.github.com/repos/psibre/arctic-prompts/notifications{?since,all,participating}",
   "labels_url": "https://api.github.com/repos/psibre/arctic-prompts/labels{/name}",
   "releases_url": "https://api.github.com/repos/psibre/arctic-prompts/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/psibre/arctic-prompts/deployments",
   "created_at": "2014-03-10T10:25:18Z",
   "updated_at": "2015-02-24T10:38:21Z",
   "pushed_at": "2015-02-24T20:20:02Z",

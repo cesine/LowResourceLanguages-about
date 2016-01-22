@@ -61,6 +61,7 @@
   "notifications_url": "https://api.github.com/repos/kscanne/moz-l10n-tiers/notifications{?since,all,participating}",
   "labels_url": "https://api.github.com/repos/kscanne/moz-l10n-tiers/labels{/name}",
   "releases_url": "https://api.github.com/repos/kscanne/moz-l10n-tiers/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/kscanne/moz-l10n-tiers/deployments",
   "created_at": "2013-11-22T20:34:44Z",
   "updated_at": "2013-11-22T21:01:23Z",
   "pushed_at": "2013-11-22T21:01:22Z",
