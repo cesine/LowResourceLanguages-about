@@ -63,7 +63,7 @@
   "releases_url": "https://api.github.com/repos/pyramation/LaTeX2HTML5/releases{/id}",
   "deployments_url": "https://api.github.com/repos/pyramation/LaTeX2HTML5/deployments",
   "created_at": "2013-08-20T05:44:28Z",
-  "updated_at": "2016-01-12T09:26:47Z",
+  "updated_at": "2016-01-26T06:26:47Z",
   "pushed_at": "2014-09-04T22:54:24Z",
   "git_url": "git://github.com/pyramation/LaTeX2HTML5.git",
   "ssh_url": "git@github.com:pyramation/LaTeX2HTML5.git",

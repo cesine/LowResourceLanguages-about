@@ -80,9 +80,9 @@
   "has_pages": false,
   "forks_count": 12,
   "mirror_url": null,
-  "open_issues_count": 22,
+  "open_issues_count": 23,
   "forks": 12,
-  "open_issues": 22,
+  "open_issues": 23,
   "watchers": 19,
   "default_branch": "master",
   "permissions": {
@@ -110,5 +110,5 @@
     "site_admin": false
   },
   "network_count": 12,
-  "subscribers_count": 14
+  "subscribers_count": 13
 }
