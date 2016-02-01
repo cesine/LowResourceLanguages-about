@@ -63,7 +63,7 @@
   "releases_url": "https://api.github.com/repos/nltk/nltk/releases{/id}",
   "deployments_url": "https://api.github.com/repos/nltk/nltk/deployments",
   "created_at": "2009-09-07T10:53:58Z",
-  "updated_at": "2016-01-31T08:42:38Z",
+  "updated_at": "2016-02-01T06:15:14Z",
   "pushed_at": "2016-01-29T20:47:01Z",
   "git_url": "git://github.com/nltk/nltk.git",
   "ssh_url": "git@github.com:nltk/nltk.git",
