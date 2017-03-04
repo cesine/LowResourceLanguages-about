@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Measure the visibility of
+# Measure the visibility of 
 #
 #
 #
@@ -20,10 +20,10 @@ for repo in $LRL_GITHUB_REPOSITORIES; do
 #  echo  " $json" | grep "subscribers_count" ;
 #  echo  " $json" | grep "open_issues_count" ;
   echo "$json" > "visibility/results/${repo/\//___}.json"
-  sed -i "s/$GITHUB_API_TOKEN//g" "visibility/results/${repo/\//___}.json"
 done
 
 #ls -al visibility/results
 echo `date` >> visibility/results/run.log
 git add visibility/results
 git commit -m "measures for `date`"
+
